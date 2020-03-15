@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "",
+  "usingComponents":{
+    "err-page": "../../component/pageresult/index",
+    "detail-list": "../../module/detail-list/index"
+  }
+}

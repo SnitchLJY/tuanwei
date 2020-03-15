@@ -1,0 +1,10 @@
+{
+  "defaultTitle": "社保查询",
+  "titleBarColor": "#29AB91",
+  "usingComponents": {
+    "footer": "../../component/footer/index",
+    "top": "../../module/top/index",
+    "err-page": "../../component/pageresult/index",
+    "icon-list": "../../module/icon-list/index"
+  }
+}

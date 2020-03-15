@@ -1,0 +1,4 @@
+<view a:for="{{personalDetailInfo}}" class="detail-item-wrapper">
+  <view class="detail-title">{{item.key || '--'}}</view>
+  <view class="detail-text">{{item.value || '--'}}</view>
+</view>

@@ -1,0 +1,24 @@
+.date-picker-wrapper{
+  height: 54rpx;
+  margin: 20rpx 0;
+  background-color: #fff;
+  padding: 20rpx 24rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .left-text {
+    .date-picker-text {
+      display: inline-block;
+      font-size: 28rpx;
+      color: #333;
+      padding-right: 32rpx;
+    }
+  }
+  .right-arrow {
+    width: 16rpx;
+    image{
+      width: 16rpx;
+      height: 26rpx;
+    }
+  }
+}

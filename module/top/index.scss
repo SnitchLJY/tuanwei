@@ -1,0 +1,57 @@
+@import "../../style/common";
+
+//顶部
+.top-wrapper {
+  background-color: $contentTopBackgroundColor;
+  .top-title {
+    padding: 48rpx 36rpx 86rpx 36rpx;
+    .auth-btn {
+      text-align: center;
+      margin: auto 36rpx;
+      padding: 24rpx 32rpx;
+      border: 1rpx solid #fff;
+      border-radius: 4rpx;
+      .auth-title{
+        color: #fff;
+        opacity: 1;
+        font-size: 32rpx;
+      }
+      .auth-info{
+        margin-top: 7rpx;
+        font-size: 24rpx;
+        color: #F0F7FF;
+        opacity: .6;
+      }
+    }
+    .top-content {
+      display: flex;
+      justify-content: space-between;
+      color: #fff;
+      .left-content {
+        .name {
+          font-size: 40rpx;
+        }
+        .company {
+          font-size: 34rpx;
+          opacity: .8;
+        }
+      }
+      .right-content {
+        display: flex;
+        width: .5rem;
+        justify-content: flex-end;
+        align-items: center;
+        image {
+          width: 16rpx;
+          height: 29rpx;
+        }
+      }
+    }
+  }
+
+  .top-status {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 32rpx 66rpx 32rpx;
+  }
+}

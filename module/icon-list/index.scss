@@ -1,0 +1,58 @@
+@import "../../style/common";
+.icon-list{
+  background-color: #fff;
+  .icon-item {
+    &:last-child{
+      border-bottom: none;
+    }
+    margin-left: 30rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120rpx;
+    @include borderBottomDDD;
+    .left-content {
+      display: flex;
+      align-items: center;
+      .left-icon {
+        image {
+          width: 52rpx;
+          height: 59rpx;
+        }
+      }
+      .left-title {
+        padding-left: 32rpx;
+        color: $fontColor333;
+        font-size: 32rpx;
+      }
+    }
+    .right-content {
+      display: flex;
+      justify-content: space-around;
+      height: 80rpx;
+      padding-right: 32rpx;
+      text-align: right;
+      .right-text {
+        text-align: right;
+        margin: auto 0;
+        .top-title {
+          color: #ccc;
+          font-size: 24rpx;
+          margin-bottom: 10rpx;
+        }
+        .bottom-num {
+          color: $fontColor999;
+          font-size: 28rpx;
+        }
+      }
+      .right-arrow {
+        margin: auto 0 auto 32rpx;
+        width: 16rpx;
+        image{
+          width: 16rpx;
+          height: 26rpx;
+        }
+      }
+    }
+  }
+}

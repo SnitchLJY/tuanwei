@@ -1,0 +1,24 @@
+<!--顶部-->
+<view class="top-wrapper" a:if="{{personalGeneralInfo}}">
+  <view class="top-title">
+    <view class="auth-btn" a:if="{{needAuth}}" onTap="onStartAuth">
+      <view class="auth-title">立即授权</view>
+      <view class="auth-info">个人社保信息属于敏感信息，需授权后才能查看</view>
+    </view>
+    <view class="top-content" a:if="{{!needAuth && personalGeneralInfo.baseInfo}}"  onTap="onHrefDetail">
+      <view class="left-content">
+        <view class="name">{{personalGeneralInfo.baseInfo.userName}}</view>
+        <view class="company">{{personalGeneralInfo.baseInfo.company}}</view>
+      </view>
+      <!--箭头-->
+      <view a:if="{{personalGeneralInfo.hasDetail=='true'}}" class="right-content">
+        <image src="https://gw.alipayobjects.com/zos/rmsportal/GOGKXnFxjUNoqKpbiMiS.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class="top-status">
+    <block a:for="{{personalGeneralInfo.insInfo}}">
+      <topitem title="{{item.key}}" txt="{{item.value}}"/>
+    </block>
+  </view>
+</view>

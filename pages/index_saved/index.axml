@@ -1,0 +1,16 @@
+<view class="page">
+  <view class="page-section">
+    <view class="page-section-title">考核工作台</view>
+    <grid onGridItemClick="onItemClick" columnNum="{{4}}" list="{{list}}" />
+  </view>
+  <view class="detail-item-content">
+    <tabs
+      tabs="{{flowTypeList}}"
+      activeTab="{{activeTab}}"
+      onChange="onChangeTab"
+      onTabClick="onChangeTab"
+    />
+    <date-picker />
+    <flow-detail flowType="{{flowTypeList[activeTab]['flowType']}}" />
+  </view>   
+</view>

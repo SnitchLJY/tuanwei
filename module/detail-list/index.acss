@@ -1,0 +1,25 @@
+.detail-item-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 32rpx;
+  padding: 26rpx 32rpx 26rpx 0;
+  border-bottom: 1rpx solid #ddd;
+}
+
+.detail-item-wrapper:last-child {
+  border-bottom: none;
+}
+
+.detail-item-wrapper .detail-title {
+  font-size: 34rpx;
+  color: #999;
+  word-break: break-all;
+}
+
+.detail-item-wrapper .detail-text {
+  color: #333;
+  font-size: 32rpx;
+  word-break: break-all;
+  text-align: right;
+}

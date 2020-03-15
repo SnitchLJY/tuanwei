@@ -1,0 +1,33 @@
+<err-page a:if="{{errorMsg}}" brief="{{errorMsg}}"></err-page>
+<view a:else class="detail-item-container">
+  <ins-general-head />
+  <view class="detail-item-content">
+    <tabs
+      tabs="{{flowTypeList}}"
+      activeTab="{{activeTab}}"
+      onChange="onChangeTab"
+      onTabClick="onChangeTab"
+    />
+    <date-picker />
+    <flow-detail flowType="{{flowTypeList[activeTab]['flowType']}}" />
+  </view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

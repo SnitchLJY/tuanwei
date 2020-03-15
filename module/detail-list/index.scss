@@ -1,0 +1,24 @@
+@import "../../style/common";
+
+.detail-item-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 32rpx;
+  padding: 26rpx 32rpx 26rpx 0;
+  @include borderBottomDDD;
+  &:last-child {
+    border-bottom: none;
+  }
+  .detail-title {
+    font-size: 34rpx;
+    color: $fontColor999;
+    word-break: break-all;
+  }
+  .detail-text {
+    color: $fontColor333;
+    font-size: 32rpx;
+    word-break: break-all;
+    text-align: right;
+  }
+}

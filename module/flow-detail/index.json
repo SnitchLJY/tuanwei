@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents":{
+    "deposit-item": "../deposit-item/index",
+    "expend-item": "../expend-item/index",
+    "footer": "../../component/footer/index",
+    "quest-item": "../quest-item/quest-item"
+  }
+}

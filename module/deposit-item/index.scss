@@ -1,0 +1,58 @@
+@import "../../style/common";
+.deposit-item-wrapper {
+  margin-top: 16rpx;
+  .deposit-item {
+    padding: 26rpx 0;
+    background-color: #fff;
+    .top-title {
+      font-size: 28rpx;
+      color: rgba(0, 0, 0, .46);
+    }
+    .sub-num {
+      color: #000;
+      padding-top: 6rpx;
+      font-size: 32rpx;
+    }
+    .right-text {
+      text-align: right;
+    }
+    .date-title {
+      padding: 0 60rpx;
+      color: #333;
+      font-size: 32rpx;
+    }
+    .general-info-wrapper {
+      padding: 22rpx 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .general-info-item {
+        flex-grow: 1;
+        text-align: center;
+        border-right: 1rpx solid #ddd;
+        &:last-child {
+          border-right: none;
+        }
+      }
+    }
+    .extend-info-wrapper {
+      padding: 32rpx 0;
+      margin: 0 60rpx;
+      border-top: solid 1rpx #ddd;
+      .extend-info-item {
+        padding-top: 18rpx;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+    .arrow-icon {
+      margin: auto;
+      width: 28rpx;
+      .arrow-icon-img {
+        width: 22rpx;
+        height: 14rpx;
+      }
+    }
+  }
+}

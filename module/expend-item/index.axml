@@ -1,0 +1,12 @@
+<view class="expend-item-wrapper">
+  <view class="expend-item">
+    <view class="left-text">
+      <view class="top-title">{{flowItemData.expensesName}}</view>
+      <view class="sub-text">{{flowItemData.expensesAmount}}</view>
+    </view>
+    <view class="right-text">
+      <view class="top-title">{{flowItemData.expensesPlace}}</view>
+      <view class="sub-text">{{flowItemData.accountBalance}}</view>
+    </view>
+  </view>
+</view>

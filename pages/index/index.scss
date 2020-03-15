@@ -1,0 +1,13 @@
+@import "../../style/common";
+
+.container {
+  background-color: $windowBackgroundColor;
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  .mid-wrapper {
+    flex: 1;
+    padding-bottom: 20rpx;
+  }
+}

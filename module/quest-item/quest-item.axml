@@ -1,0 +1,12 @@
+<view class="quest-item-wrapper">
+  <view class="quest-item">
+    <view class="left-text">
+      <view class="quest-title">{{flowItemData.date}}</view>
+      <view class="quest-date">{{flowItemData.title}}</view>
+    </view>
+    <view class="right-text">
+      <view class="top-title">{{flowItemData.done}}</view>
+      <view class="sub-text">完成人数：{{flowItemData.doneNumber}}</view>
+    </view>
+  </view>
+</view>

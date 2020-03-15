@@ -1,0 +1,7 @@
+<view class="container">
+  <page-result
+    type="network"
+    brief="{{brief}}"
+  >
+  </page-result>
+</view>

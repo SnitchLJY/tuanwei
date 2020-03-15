@@ -1,0 +1,30 @@
+@import "../../style/common";
+
+.expend-item-wrapper {
+  padding: 24rpx 12rpx;
+  background-color: #fff;
+  @include borderBottomDDD;
+  &:last-child {
+    border-bottom: none;
+  }
+  .expend-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left-text {
+      text-align: left;
+    }
+    .right-text {
+      text-align: right;
+    }
+    .top-title {
+      color: $fontColor333;
+      font-size: 34rpx;
+    }
+    .sub-text {
+      padding-top: 8rpx;
+      color: $fontColor999;
+      font-size: 28rpx;
+    }
+  }
+}

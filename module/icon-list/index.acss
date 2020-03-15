@@ -1,0 +1,66 @@
+.icon-list {
+  background-color: #fff;
+}
+
+.icon-list .icon-item {
+  margin-left: 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120rpx;
+  border-bottom: 1rpx solid #ddd;
+}
+
+.icon-list .icon-item:last-child {
+  border-bottom: none;
+}
+
+.icon-list .icon-item .left-content {
+  display: flex;
+  align-items: center;
+}
+
+.icon-list .icon-item .left-content .left-icon image {
+  width: 52rpx;
+  height: 59rpx;
+}
+
+.icon-list .icon-item .left-content .left-title {
+  padding-left: 32rpx;
+  color: #333;
+  font-size: 32rpx;
+}
+
+.icon-list .icon-item .right-content {
+  display: flex;
+  justify-content: space-around;
+  height: 80rpx;
+  padding-right: 32rpx;
+  text-align: right;
+}
+
+.icon-list .icon-item .right-content .right-text {
+  text-align: right;
+  margin: auto 0;
+}
+
+.icon-list .icon-item .right-content .right-text .top-title {
+  color: #ccc;
+  font-size: 24rpx;
+  margin-bottom: 10rpx;
+}
+
+.icon-list .icon-item .right-content .right-text .bottom-num {
+  color: #999;
+  font-size: 28rpx;
+}
+
+.icon-list .icon-item .right-content .right-arrow {
+  margin: auto 0 auto 32rpx;
+  width: 16rpx;
+}
+
+.icon-list .icon-item .right-content .right-arrow image {
+  width: 16rpx;
+  height: 26rpx;
+}

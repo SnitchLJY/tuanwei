@@ -1,0 +1,12 @@
+{
+  "defaultTitle": "",
+  "titleBarColor": "#fff",
+  "usingComponents":{
+    "ins-general-head": "../../module/ins-general-head/index",
+    "date-picker": "../../module/date-picker/index",
+    "flow-detail": "../../module/flow-detail/index",
+    "tabs":"mini-antui/es/tabs/index",
+    "tab-content": "mini-antui/es/tabs/tab-content/index",
+    "err-page": "../../component/pageresult/index"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "usingComponents":{
+        "grid":"mini-ali-ui/es/grid/index",
+        "pagination": "mini-ali-ui/es/pagination/index",
+        "date-picker": "../../module/date-picker/index",
+        "tabs":"mini-antui/es/tabs/index",
+        "flow-detail": "../../module/flow-detail/index"
+    }
+}

@@ -1,0 +1,14 @@
+<err-page a:if="{{errorMsg!==''}}" brief="{{errorMsg}}"></err-page>
+<view a:else class="container">
+  <view class="mid-wrapper">
+    <!--顶部-->
+    <top />
+    <!--列表-->
+    <icon-list />
+    <button size="default" type="primary" onTap="navigate_tosaved">Button</button>
+  </view>
+  <!--底部-->
+  <footer />
+</view>
+
+

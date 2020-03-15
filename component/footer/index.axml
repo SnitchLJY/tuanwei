@@ -1,0 +1,9 @@
+<view class="footer-wrapper">
+  <view class="content">
+    <view class="copy">{{footerData.copy || footerData}}</view>
+    <view class="tel" onTap="onHandleCall" a:if="{{footerData.telTitle}}">
+      {{footerData.telTitle}}
+      <text class="tel-text">{{footerData.tel || '--'}}</text>
+    </view>
+  </view>
+</view>

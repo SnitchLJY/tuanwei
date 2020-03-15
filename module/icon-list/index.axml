@@ -1,0 +1,33 @@
+
+<view class="icon-list">
+  <block a:for="{{insGeneralInfo}}">
+  <view data-item="{{item}}" onTap="onHandleItem" class="icon-item">
+    <view class="left-content">
+      <view class="left-icon">
+        <image src="{{item.icon}}"></image>
+      </view>
+      <view class="left-title">{{item.insName}}</view>
+    </view>
+    <view class="right-content">
+      <view class="right-text">
+        <view a:if="{{item&&item.extendData.length>0&&item.extendData[0].key!=null&&item.extendData[0].key!==''}}" 
+          class="top-title"
+        >
+          {{(itemInfo && item.extendData.length>0) ? itemInfo.extendData[0].key : ''}}
+        </view>
+        <view a:if="{{item&&item.extendData.length>0&&item.extendData[0].value!=null&&item.extendData[0].value!==''}}" 
+          class="bottom-num"
+        >
+          {{(itemInfo && item.extendData.length>0) ? itemInfo.extendData[0].value : ''}}
+        </view>
+      </view>
+      <view class="right-arrow">
+        <image 
+          a:if="{{item && item.extendData.length>0 && item.hasDetail==='true' && item.extendData[0].value!=='未参保'}}" 
+          src="https://gw.alipayobjects.com/zos/rmsportal/OWxKhTyOmdpPBAAGESZe.png"
+        ></image>
+      </view>
+    </view>
+  </view>
+  </block>
+</view>

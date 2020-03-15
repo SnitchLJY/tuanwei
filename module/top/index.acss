@@ -1,0 +1,61 @@
+.top-wrapper {
+  background-color: #29AB91;
+}
+
+.top-wrapper .top-title {
+  padding: 48rpx 36rpx 86rpx 36rpx;
+}
+
+.top-wrapper .top-title .auth-btn {
+  text-align: center;
+  margin: auto 36rpx;
+  padding: 24rpx 32rpx;
+  border: 1rpx solid #fff;
+  border-radius: 4rpx;
+}
+
+.top-wrapper .top-title .auth-btn .auth-title {
+  color: #fff;
+  opacity: 1;
+  font-size: 32rpx;
+}
+
+.top-wrapper .top-title .auth-btn .auth-info {
+  margin-top: 7rpx;
+  font-size: 24rpx;
+  color: #F0F7FF;
+  opacity: .6;
+}
+
+.top-wrapper .top-title .top-content {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.top-wrapper .top-title .top-content .left-content .name {
+  font-size: 40rpx;
+}
+
+.top-wrapper .top-title .top-content .left-content .company {
+  font-size: 34rpx;
+  opacity: .8;
+}
+
+.top-wrapper .top-title .top-content .right-content {
+  display: flex;
+  width: .5rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.top-wrapper .top-title .top-content .right-content image {
+  width: 16rpx;
+  height: 29rpx;
+}
+
+.top-wrapper .top-status {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 32rpx 66rpx 32rpx;
+}

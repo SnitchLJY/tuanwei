@@ -1,0 +1,19 @@
+@import "../../style/common";
+.head-wrapper {
+  background-color: #29ab91;
+  height: 210rpx;
+  padding: 54rpx 0 118rpx 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  .head-small-text {
+    color: #fff;
+    opacity: 0.6;
+    font-size: 28rpx;
+  }
+  .head-big-text {
+    color: #fff;
+    font-size: 80rpx;
+  }
+}

@@ -1,0 +1,5 @@
+<view class="head-wrapper">
+  <view class="head-small-text">金额(元)</view>
+  <view class="head-big-text">{{headData.currentBalance || '--'}}</view>
+  <view class="head-small-text">历年账户余额(元)：{{headData.historyBalance || '--'}}</view>
+</view>

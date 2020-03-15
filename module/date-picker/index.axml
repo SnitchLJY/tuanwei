@@ -1,0 +1,9 @@
+<view class="date-picker-wrapper" onTap="onDatePickPopUp">
+  <view class="left-text">
+    <view class="date-picker-text">{{datePickerTitle}}</view>
+    <view class="date-picker-text">{{selectedDate[activeTab]}}</view>
+  </view>
+  <view class="right-arrow">
+    <image src="https://gw.alipayobjects.com/zos/rmsportal/OWxKhTyOmdpPBAAGESZe.png"></image>
+  </view>
+</view>

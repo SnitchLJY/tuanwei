@@ -1,0 +1,25 @@
+<view class="deposit-item-wrapper">
+  <view class="deposit-item">
+    <view class="date-title">{{flowItemData.month}}</view>
+    <view class="general-info-wrapper">
+      <block a:for="{{flowItemData.generalData}}">
+        <view class="general-info-item">
+          <view class="top-title">{{item.key}}</view>
+          <view class="sub-num">{{item.value}}</view>
+        </view>
+      </block>
+    </view>
+    <!--更多信息-->
+    <view a:if="{{arrowDirection}}" class="extend-info-wrapper">
+      <block a:for="{{flowItemData.extendData}}">
+        <view class="extend-info-item">
+          <view class="top-title">{{item.key}}</view>
+          <view class="top-title right-text">{{item.value}}</view>
+        </view>
+      </block>
+    </view>
+    <view class="arrow-icon" a:if="{{flowItemData.extendData.length!==0}}" onTap="onSwitchDirection">
+      <image class="arrow-icon-img" src="{{arrowDirection ? upArrow : downArrow}}"></image>
+    </view>
+  </view>
+</view>

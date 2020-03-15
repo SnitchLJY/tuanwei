@@ -1,0 +1,69 @@
+.deposit-item-wrapper {
+  margin-top: 16rpx;
+}
+
+.deposit-item-wrapper .deposit-item {
+  padding: 26rpx 0;
+  background-color: #fff;
+}
+
+.deposit-item-wrapper .deposit-item .top-title {
+  font-size: 28rpx;
+  color: rgba(0, 0, 0, 0.46);
+}
+
+.deposit-item-wrapper .deposit-item .sub-num {
+  color: #000;
+  padding-top: 6rpx;
+  font-size: 32rpx;
+}
+
+.deposit-item-wrapper .deposit-item .right-text {
+  text-align: right;
+}
+
+.deposit-item-wrapper .deposit-item .date-title {
+  padding: 0 60rpx;
+  color: #333;
+  font-size: 32rpx;
+}
+
+.deposit-item-wrapper .deposit-item .general-info-wrapper {
+  padding: 22rpx 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.deposit-item-wrapper .deposit-item .general-info-wrapper .general-info-item {
+  flex-grow: 1;
+  text-align: center;
+  border-right: 1rpx solid #ddd;
+}
+
+.deposit-item-wrapper .deposit-item .general-info-wrapper .general-info-item:last-child {
+  border-right: none;
+}
+
+.deposit-item-wrapper .deposit-item .extend-info-wrapper {
+  padding: 32rpx 0;
+  margin: 0 60rpx;
+  border-top: solid 1rpx #ddd;
+}
+
+.deposit-item-wrapper .deposit-item .extend-info-wrapper .extend-info-item {
+  padding-top: 18rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.deposit-item-wrapper .deposit-item .arrow-icon {
+  margin: auto;
+  width: 28rpx;
+}
+
+.deposit-item-wrapper .deposit-item .arrow-icon .arrow-icon-img {
+  width: 22rpx;
+  height: 14rpx;
+}

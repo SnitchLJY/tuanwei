@@ -1,0 +1,6 @@
+.page-section-title {
+    font-size: 16px;
+    font-weight: bolder;
+    color: rgb(0, 0,0);
+    margin-left: 10rpx;
+}

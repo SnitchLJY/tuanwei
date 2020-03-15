@@ -1,0 +1,4 @@
+<view class="top-item-wrapper">
+  <view class="title">{{title}}</view>
+  <view class="txt">{{txt}}</view>
+</view>

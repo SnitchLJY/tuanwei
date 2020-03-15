@@ -1,0 +1,9 @@
+.container {
+  background-color: #ECECEC;
+}
+
+.container .content-list {
+  width: 750rpx;
+  background-color: #fff;
+  border-top: 1rpx solid #ddd;
+}

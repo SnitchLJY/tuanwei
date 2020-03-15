@@ -1,0 +1,10 @@
+@import "../../style/common";
+
+.container {
+  background-color: $windowBackgroundColor;
+  .content-list {
+    width: 750rpx;
+    background-color: #fff;
+    @include borderTopDDD;
+  }
+}

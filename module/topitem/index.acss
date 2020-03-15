@@ -1,0 +1,22 @@
+.top-item-wrapper {
+  width: 210rpx;
+  padding: 0 20rpx;
+  text-align: center;
+}
+
+.top-item-wrapper:not(:first-child) {
+  border-left: 1rpx solid rgba(255, 255, 255, 0.21);
+}
+
+.top-item-wrapper .title {
+  font-size: 28rpx;
+  color: #F0F7FF;
+  opacity: .6;
+}
+
+.top-item-wrapper .txt {
+  margin-top: 20rpx;
+  word-break: break-all;
+  font-size: 32rpx;
+  color: #fff;
+}

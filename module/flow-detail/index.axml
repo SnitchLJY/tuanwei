@@ -1,0 +1,8 @@
+<view class="flow-detail-wrapper">
+  <block a:for="{{flowData}}">
+    <deposit-item class="deposit" a:if="{{flowType === 'deposit'}}" flowItemData="{{item}}" />
+    <expend-item class="expend" a:if="{{flowType === 'expend'}}" flowItemData="{{item}}" />
+    <quest-item class="expend" a:if="{{flowType === 'quest'}}" flowItemData="{{item}}" />
+  </block>
+  <footer a:if="{{!hasNextPage}}" footerData="没有更多数据了" />
+</view>

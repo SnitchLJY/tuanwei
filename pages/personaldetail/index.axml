@@ -1,0 +1,6 @@
+<err-page a:if="{{errorMsg!==''}}" brief="{{errorMsg}}"></err-page>
+<view a:else class="container">
+  <view class="content-list">
+    <detail-list />
+  </view>
+</view>

@@ -7,6 +7,6 @@
   "dependencies": {
     "herculex": "^0.3.0-beta.5",
     "mini-antui": "^0.3.5",
-    "moment": "^2.22.2"
+    "moment": "^2.29.4"
   }
 }
